@@ -1,2 +1,2 @@
-# NoA-Epsilon
-Third party NoActive, modified from NoActive v2.7
+# NoActive-Epsilon
+new third-party NoActive edition based on NoActive v2.7
