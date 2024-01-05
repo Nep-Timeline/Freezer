@@ -1,2 +1,2 @@
-# NoActive-Epsilon
-new third-party NoActive edition based on NoActive v2.7
+# Freezer
+new third-party Android Tombstone edition based on NoActive v2.7
