@@ -1,0 +1,12 @@
+name: 新功能请求
+description: 请求添加新功能
+title: "[功能请求] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    attributes:
+      label: 这是个什么样的功能？
+      description: 介绍一下这个功能以及用途.
+      placeholder: 例如: 我想要添加FCM解冻，它可以在应用收到FCM推送时临时解冻来确保应用可以及时推送消息.
+    validations:
+      required: true
