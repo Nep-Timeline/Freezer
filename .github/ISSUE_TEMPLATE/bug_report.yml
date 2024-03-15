@@ -1,0 +1,40 @@
+name: 问题反馈
+description: 提交错误报告
+title: "[错误] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢您愿意花费您宝贵的时间填写此错误报告！
+        为了帮助我们更快地找到问题，请填写以下信息。
+  - type: textarea
+    attributes:
+      label: 你要反馈什么问题？
+      placeholder: 出现了哪些问题？
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: 模块版本
+      placeholder: 你正在使用Freezer的什么版本？
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 系统名称
+      placeholder: 你正在使用什么系统？例如ColorOS, HyperOS
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Android 版本
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Xposed 框架日志以及Freezer调试日志
+      description: 为了帮助我们更好地定位问题，请提供您的Xposed框架日志以及Freezer的调试日志，以便我们定位问题所在
+      placeholder: 保存日志并上传出现此问题的日志附件
+    validations:
+      required: true
