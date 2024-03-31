@@ -1,4 +1,4 @@
 # Freezer
-new third-party Android Tombstone edition based on NoActive v2.7
+new third-party Android Tombstone, based on NoActive
 
 [Document](https://freezer.sakion.top/)
